@@ -3,7 +3,7 @@ cursor c is SELECT DISTINCT b.OBJECT_NAME
   FROM ALL_OBJECTS b
  WHERE b.OBJECT_TYPE = 'TABLE'
    AND b.OWNER = 'OWNER_NAME'
-   AND b.OBJECT_TYPE ='TABLE';
+
 cmd varchar2(200);
 begin
 
